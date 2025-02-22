@@ -12,7 +12,7 @@ provider "github" { token = var.github_token}
 
 # Create a new repository
 resource "github_repository" "terraform-laboratorio" {
-  name        = "terraform-laboratory"
+  name        = "terraform-laboratorio"
   description = "Arquitectura de software 2025"
   
   # Set repository visibility
